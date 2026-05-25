@@ -42,3 +42,8 @@
 2026-05-25T14:48:25.228+07:00  INFO 26868 --- [PTIT_CNTT2_IT211_SS10_EX1] [http-nio-8080-exec-2] c.r.p.controller.CartController          : Kết quả xử lý thành công cho User: U01 - Trả về HTTP 201
 2026-05-25T14:48:47.020+07:00  INFO 26868 --- [PTIT_CNTT2_IT211_SS10_EX1] [http-nio-8080-exec-3] c.r.p.controller.CartController          : Nhận Request GET /api/cart/1
 2026-05-25T14:48:47.021+07:00  INFO 26868 --- [PTIT_CNTT2_IT211_SS10_EX1] [http-nio-8080-exec-3] c.r.p.service.impl.CartServiceImpl       : Lấy danh sách giỏ hàng của User: 1
+2026-05-25T14:51:15.238+07:00  INFO 26868 --- [PTIT_CNTT2_IT211_SS10_EX1] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25T14:51:15.425+07:00  INFO 26868 --- [PTIT_CNTT2_IT211_SS10_EX1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-25T14:51:15.429+07:00  INFO 26868 --- [PTIT_CNTT2_IT211_SS10_EX1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T14:51:15.432+07:00  INFO 26868 --- [PTIT_CNTT2_IT211_SS10_EX1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-25T14:51:15.440+07:00  INFO 26868 --- [PTIT_CNTT2_IT211_SS10_EX1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
